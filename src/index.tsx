@@ -1,16 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
+import Body from './Components/Body/Body';
+import Navbar from './Components/Navbar/Navbar';
+
+import 'bootswatch/dist/cyborg/bootstrap.min.css';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
 	<React.StrictMode>
-		<h1>'Hello World'</h1>
+		<BrowserRouter>
+			<Navbar />
+			<div className='container p-4'>
+				<Switch>
+					<Route exact path='/' component={Body} />
+				</Switch>
+			</div>
+		</BrowserRouter>
 	</React.StrictMode>,
 	document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
