@@ -3,13 +3,12 @@
 	height: 100vh;
 	width: 100vw;
 	padding-top: 57px;
-	scroll-snap-type: y mandatory;
+	scroll-snap-type: y proximity;
+	scroll-snap-stop: always;
 	overflow-y: scroll;
 	background-color: rgb(150, 75, 75);
 }
 .scrollY {
-	display: flex;
-	flex: none;
 	width: 100vw;
 	height: 100vh;
 	scroll-snap-align: start;
@@ -17,12 +16,15 @@
 }
 
 .hero {
+	display: flex;
+	flex: none;
 	width: 100vw;
 	height: 100vh;
 	background: url(./Components/Body/Assets/coding\ bg2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	scroll-snap-stop: always;
 }
 
 .hero-content {
@@ -61,7 +63,6 @@
 }
 
 .text--content {
-	opacity: 0.8;
 	padding: 0px 30px 5px 30px;
 	border-radius: 20px;
 	-webkit-border-radius: 20px;
@@ -72,7 +73,7 @@
 	background-color: rgba(15, 108, 122, 0.1);
 	box-shadow: inset 0px 0px 20px rgba(255, 232, 198, 0.582);
 	border: 2px solid rgba(255, 232, 198, 0.5);
-	overflow: hidden;
+	margin-top: 30px;
 }
 
 .title {
@@ -92,8 +93,74 @@
 	font-style: italic;
 	color: #ffe8c6;
 	opacity: 1;
+	margin-top: 10px;
 }
 
+.aboutme {
+	scroll-snap-stop: always;
+	background: rgba(13, 41, 58, 1);
+	background: -moz-linear-gradient(
+		top,
+		rgba(13, 41, 58, 1) 0%,
+		rgba(13, 41, 58, 1) 1%,
+		rgba(0, 27, 46, 1) 35%,
+		rgba(14, 109, 123, 1) 100%
+	);
+	background: -webkit-gradient(
+		left top,
+		left bottom,
+		color-stop(0%, rgba(13, 41, 58, 1)),
+		color-stop(1%, rgba(13, 41, 58, 1)),
+		color-stop(35%, rgba(0, 27, 46, 1)),
+		color-stop(100%, rgba(14, 109, 123, 1))
+	);
+	background: -webkit-linear-gradient(
+		top,
+		rgba(13, 41, 58, 1) 0%,
+		rgba(13, 41, 58, 1) 1%,
+		rgba(0, 27, 46, 1) 35%,
+		rgba(14, 109, 123, 1) 100%
+	);
+	background: -o-linear-gradient(
+		top,
+		rgba(13, 41, 58, 1) 0%,
+		rgba(13, 41, 58, 1) 1%,
+		rgba(0, 27, 46, 1) 35%,
+		rgba(14, 109, 123, 1) 100%
+	);
+	background: -ms-linear-gradient(
+		top,
+		rgba(13, 41, 58, 1) 0%,
+		rgba(13, 41, 58, 1) 1%,
+		rgba(0, 27, 46, 1) 35%,
+		rgba(14, 109, 123, 1) 100%
+	);
+	background: linear-gradient(
+		to bottom,
+		rgba(13, 41, 58, 1) 0%,
+		rgba(13, 41, 58, 1) 1%,
+		rgba(0, 27, 46, 1) 35%,
+		rgba(14, 109, 123, 1) 100%
+	);
+}
+
+.flag {
+	width: 30px;
+}
+
+.cardAbout {
+	padding: 15px;
+	margin: 0px;
+	font: normal bold 18px 'Oswald', sans-serif;
+	color: #ff8714;
+}
+
+.imgAbout {
+	width: 200px;
+	height: 150px;
+	box-shadow: inset 0px 0px 20px rgba(255, 232, 198, 0.582);
+	border: 2px solid rgba(255, 232, 198, 0.5);
+}
 .skills {
 	background-color: gray;
 }
