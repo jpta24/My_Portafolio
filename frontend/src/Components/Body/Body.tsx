@@ -1,11 +1,14 @@
 import React from 'react';
 import Hero from './Hero';
+import Skills from './Skills';
+import AboutMe from './AboutMe';
 
 const Body = () => {
 	return (
-		<div>
-			Im the Body
+		<div className='body'>
 			<Hero />
+			<AboutMe />
+			<Skills />
 		</div>
 	);
 };

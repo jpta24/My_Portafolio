@@ -13,7 +13,7 @@ ReactDOM.render(
 	<React.StrictMode>
 		<BrowserRouter>
 			<Navbar />
-			<div className='container p-4'>
+			<div className=''>
 				<Switch>
 					<Route exact path='/' component={Body} />
 				</Switch>

@@ -52,7 +52,7 @@ const Navbar = () => {
 						<li className='nav-item'>
 							<Link
 								className={Active.Home}
-								to='#'
+								to='#hero'
 								onClick={() => {
 									handleClick('Home');
 								}}
@@ -64,7 +64,7 @@ const Navbar = () => {
 						<li className='nav-item'>
 							<Link
 								className={Active.About}
-								to='#'
+								to='#about'
 								onClick={() => {
 									handleClick('About');
 								}}
@@ -75,7 +75,8 @@ const Navbar = () => {
 						<li className='nav-item'>
 							<Link
 								className={Active.Skills}
-								to='#'
+								to='#skills'
+								target='_self'
 								onClick={() => {
 									handleClick('Skills');
 								}}
