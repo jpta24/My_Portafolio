@@ -1,2 +1,97 @@
-#hero {
+.body {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	padding-top: 57px;
+	scroll-snap-type: y mandatory;
+	overflow-y: scroll;
+	background-color: rgb(150, 75, 75);
+}
+.scrollY {
+	display: flex;
+	flex: none;
+	width: 100vw;
+	height: 100vh;
+	scroll-snap-align: start;
+	scroll-margin-top: 57px;
+}
+
+.hero {
+	width: 100vw;
+	height: 100vh;
+	background: url(./Components/Body/Assets/coding\ bg2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.hero-content {
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	margin-left: -200px;
+	text-align: center;
+	filter: blur(3px);
+	-webkit-filter: blur(3px);
+	transition: all 1000ms;
+}
+
+.hero-content:hover {
+	filter: blur(0px);
+	-webkit-filter: blur(0px);
+	transition: all 1000ms;
+}
+
+.logo {
+	height: 200px;
+	width: 220px;
+}
+.photo {
+	height: 150px;
+	width: 150px;
+	padding: 5px;
+	border: 5px solid #ffe8c6;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	margin-left: 12px;
+}
+
+.text--content {
+	opacity: 0.8;
+	padding: 0px 30px 5px 30px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	backdrop-filter: blur(40px);
+	background-color: rgba(15, 108, 122, 0.01);
+	box-shadow: inset 0px 0px 20px rgba(0, 27, 46, 0.582);
+	border: 2px solid rgba(242, 241, 249, 0.01);
+	overflow: hidden;
+}
+
+.title {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5rem;
+	font-weight: bolder;
+	font-style: italic;
+	color: #ff8714;
+	opacity: 1;
+	filter: blur(0px);
+	-webkit-filter: blur(0px);
+}
+.description {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5rem;
+	font-style: italic;
+	color: #ffe8c6;
+	opacity: 1;
+}
+
+.skills {
+	background-color: gray;
 }
