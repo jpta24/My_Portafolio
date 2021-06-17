@@ -153,6 +153,25 @@
 	margin: 0px;
 	font: normal bold 18px 'Oswald', sans-serif;
 	color: #ff8714;
+	transition: all 0.2s ease-in-out !important;
+	-webkit-transition: all 0.2s ease-in-out !important;
+	-moz-transition: all 0.2s ease-in-out !important;
+	-ms-transition: all 0.2s ease-in-out !important;
+	-o-transition: all 0.2s ease-in-out !important;
+}
+
+.cardAbout:hover {
+	box-shadow: 5px 10px 20px 1px rgb(34, 34, 34) !important;
+	transition: all 0.3s linear !important;
+	-webkit-transition: all 0.3s linear !important;
+	-moz-transition: all 0.3s linear !important;
+	-ms-transition: all 0.3s linear !important;
+	-o-transition: all 0.3s linear !important;
+	transform: scale(1.03);
+	-webkit-transform: scale(1.03);
+	-moz-transform: scale(1.03);
+	-ms-transform: scale(1.03);
+	-o-transform: scale(1.03);
 }
 
 .imgAbout {
