@@ -34,7 +34,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className='navbar navbar-expand-lg navbar-dark fixed-top bg-dark justify-content-end px-4'>
+		<nav className='navbar navbar-expand-lg navbar-dark fixed-top bg-dark justify-content-end'>
 			<div>
 				<button
 					className='navbar-toggler'
