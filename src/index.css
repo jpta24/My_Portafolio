@@ -28,17 +28,6 @@
 	scroll-snap-stop: always;
 }
 
-.hero-content {
-	/* position: absolute;
-	z-index: 1;
-	left: 50%;
-	margin-left: -200px;
-	text-align: center;
-	filter: blur(3px);
-	-webkit-filter: blur(3px);
-	transition: all 1000ms; */
-}
-
 .hero-content:hover {
 	filter: blur(0px);
 	-webkit-filter: blur(0px);
