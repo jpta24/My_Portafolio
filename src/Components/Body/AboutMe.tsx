@@ -1,10 +1,20 @@
 import React from 'react';
+import Carousel from 'react-bootstrap/Carousel';
 
 import VEflag from './Assets/VE.png';
 import GEflag from './Assets/GE.png';
-import BE11 from './Assets/BE11.jpg';
-import CE01 from './Assets/CE-01.png';
-import CI01 from './Assets/coding_icon_color.png';
+
+import CE_1 from './Assets/CE_1.jpg';
+import CE_7 from './Assets/CE_7.png';
+import CE_a from './Assets/CE_a.png';
+import CE_b from './Assets/CE_b.png';
+
+import MO_7 from './Assets/MO_7.png';
+import MO_a from './Assets/MO_a.jpg';
+import MO_b from './Assets/MO_b.png';
+import MO_c from './Assets/MO_c.png';
+
+import CI01 from './Assets/CI02.png';
 
 const AboutMe = () => {
 	return (
@@ -23,17 +33,46 @@ const AboutMe = () => {
 					</h6>
 				</div>
 			</div>
-			<div className='row'>
+			<div className='row px-2'>
 				<div className='col-md-4'>
 					<div className='text-center text-control card card-body text--content cardAbout'>
-						<h3>Marine Officer</h3>
-						<img className='imgAbout mx-auto mb-3' src={BE11} alt='' />
+						<h3>MARINE OFFICER</h3>
+						<Carousel fade className='carouselFix mx-auto'>
+							<Carousel.Item className='justify-items-center'>
+								<img
+									className='d-block carouselFix'
+									src={MO_7}
+									alt='First slide'
+								/>
+							</Carousel.Item>
+							<Carousel.Item>
+								<img
+									className='d-block carouselFix'
+									src={MO_a}
+									alt='Second slide'
+								/>
+							</Carousel.Item>
+							<Carousel.Item>
+								<img
+									className='d-block carouselFix'
+									src={MO_b}
+									alt='Third slide'
+								/>
+							</Carousel.Item>
+							<Carousel.Item>
+								<img
+									className='d-block carouselFix'
+									src={MO_c}
+									alt='Third slide'
+								/>
+							</Carousel.Item>
+						</Carousel>
 						<div>
 							<p>
 								For more than 20 years, I have been working as Marine Officer,
-								on differnt roles as Commander, Project Manager and other.
-								Working as team and leading people is always a challenge but it
-								worth it.
+								on differnt roles as Commander, Project Manager and others.
+								Working as team member and leading people is always a challenge
+								but it worth it.
 							</p>
 						</div>
 					</div>
@@ -41,27 +80,57 @@ const AboutMe = () => {
 
 				<div className='col-md-4'>
 					<div className='text-center text-control card card-body text--content cardAbout'>
-						<h3>Civil Engineering</h3>
-						<img className='imgAbout mx-auto mb-3' src={CE01} alt='' />
+						<h3>CIVIL ENGINEERING</h3>
+						<Carousel fade className='carouselFix mx-auto'>
+							<Carousel.Item className='justify-items-center'>
+								<img
+									className='d-block carouselFix'
+									src={CE_1}
+									alt='First slide'
+								/>
+							</Carousel.Item>
+
+							<Carousel.Item>
+								<img
+									className='d-block carouselFix'
+									src={CE_7}
+									alt='Third slide'
+								/>
+							</Carousel.Item>
+							<Carousel.Item>
+								<img
+									className='d-block carouselFix'
+									src={CE_a}
+									alt='Third slide'
+								/>
+							</Carousel.Item>
+							<Carousel.Item>
+								<img
+									className='d-block carouselFix'
+									src={CE_b}
+									alt='Third slide'
+								/>
+							</Carousel.Item>
+						</Carousel>
 						<div>
 							<p>
 								Since 2013 I got my degree as Civil Enginner and worked at
 								Marine Force on the Enginnering Corps, building infrastructure
 								for the Navy, leading over 50 men, then worked as Project
-								Manager for an Enginnering Brigade.
+								Manager for an Enginnering Military Brigade.
 							</p>
 						</div>
 					</div>
 				</div>
 				<div className='col-md-4'>
 					<div className='text-center text-control card card-body text--content cardAbout'>
-						<h3>Coding</h3>
-						<img className='imgAbout mx-auto mb-3' src={CI01} alt='' />
-						<div>
+						<h3>CODING</h3>
+						<img className='imgAbout mx-auto mb-2' src={CI01} alt='' />
+						<div className='mx-2'>
 							<p>
 								Over the last 2 years I have been learning about Web
 								Development, most of the time self-taught, watching videos and
-								courses on W3school, Coursera, Youtube and some others.
+								courses on W3school, Coursera, YouTube and some others.
 							</p>
 						</div>
 					</div>

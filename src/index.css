@@ -149,6 +149,7 @@
 }
 
 .cardAbout {
+	height: 100%;
 	padding: 15px;
 	margin: 0px;
 	font: normal bold 18px 'Oswald', sans-serif;
@@ -167,11 +168,11 @@
 	-moz-transition: all 0.3s linear !important;
 	-ms-transition: all 0.3s linear !important;
 	-o-transition: all 0.3s linear !important;
-	transform: scale(1.03);
+	/* transform: scale(1.03);
 	-webkit-transform: scale(1.03);
 	-moz-transform: scale(1.03);
 	-ms-transform: scale(1.03);
-	-o-transform: scale(1.03);
+	-o-transform: scale(1.03); */
 }
 
 .imgAbout {
@@ -182,4 +183,11 @@
 }
 .skills {
 	background-color: gray;
+	scroll-snap-stop: always;
+}
+
+.carouselFix {
+	width: 200px;
+	height: 150px;
+	margin-bottom: 20px;
 }

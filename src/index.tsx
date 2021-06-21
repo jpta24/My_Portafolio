@@ -6,6 +6,7 @@ import Body from './Components/Body/Body';
 import Navbar from './Components/Navbar/Navbar';
 
 import 'bootswatch/dist/cyborg/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
