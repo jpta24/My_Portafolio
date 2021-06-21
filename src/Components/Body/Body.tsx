@@ -5,7 +5,7 @@ import AboutMe from './AboutMe';
 
 const Body = () => {
 	return (
-		<div className='body'>
+		<div className='body container-fluid'>
 			<Hero />
 			<AboutMe />
 			<Skills />

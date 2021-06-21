@@ -1,25 +1,26 @@
 .body {
-	position: relative;
+	/* position: relative;
 	height: 100vh;
-	width: 100vw;
+	width: 100vw; scroll-snap-type: y proximity;
+	 scroll-snap-stop: always; 
+	overflow-y: scroll;*/
+
 	padding-top: 57px;
-	scroll-snap-type: y proximity;
-	scroll-snap-stop: always;
-	overflow-y: scroll;
 	background-color: rgb(150, 75, 75);
 }
 .scrollY {
-	width: 100vw;
+	/* width: 100vw; */
 	height: 100vh;
+
 	scroll-snap-align: start;
 	scroll-margin-top: 57px;
 }
 
 .hero {
 	display: flex;
-	flex: none;
-	width: 100vw;
-	height: 100vh;
+	flex: none; /*
+	width: 100vw;*/
+	height: 570px;
 	background: url(./Components/Body/Assets/coding\ bg2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -28,14 +29,14 @@
 }
 
 .hero-content {
-	position: absolute;
+	/* position: absolute;
 	z-index: 1;
 	left: 50%;
 	margin-left: -200px;
 	text-align: center;
 	filter: blur(3px);
 	-webkit-filter: blur(3px);
-	transition: all 1000ms;
+	transition: all 1000ms; */
 }
 
 .hero-content:hover {
@@ -69,7 +70,7 @@
 	-moz-border-radius: 20px;
 	-ms-border-radius: 20px;
 	-o-border-radius: 20px;
-	backdrop-filter: blur(40px);
+	backdrop-filter: blur(30px);
 	background-color: rgba(15, 108, 122, 0.1);
 	box-shadow: inset 0px 0px 20px rgba(255, 232, 198, 0.582);
 	border: 2px solid rgba(255, 232, 198, 0.5);
@@ -97,7 +98,10 @@
 }
 
 .aboutme {
+	height: 570px;
 	scroll-snap-stop: always;
+	display: flex;
+	flex: none;
 	background: rgba(13, 41, 58, 1);
 	background: -moz-linear-gradient(
 		top,

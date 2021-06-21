@@ -5,15 +5,15 @@ import photo from './Assets/photo.png';
 
 const Hero = () => {
 	return (
-		<div id='hero' className='hero scrollY'>
-			<div className='hero-content'>
-				<div>
-					<img className='logo' src={logo} alt='hello' />
+		<div id='hero' className='row hero'>
+			<div className='col-md-4 mx-auto'>
+				<div className='text-center'>
+					<img className='logo mx-auto' src={logo} alt='hello' />
 				</div>
-				<div>
-					<img className='photo' src={photo} alt='hello' />
+				<div className='text-center'>
+					<img className='photo mx-auto' src={photo} alt='hello' />
 				</div>
-				<div className='text--content'>
+				<div className='text-center text--content '>
 					<h1 className='title'>Jean-Pierre Torres</h1>
 					<h2 className='description'>
 						Junior FullStack MEAR <br></br>

@@ -18,9 +18,9 @@ import CI01 from './Assets/CI02.png';
 
 const AboutMe = () => {
 	return (
-		<div className='aboutme scrollY container-fluid'>
+		<div className='aboutme scrollY row'>
 			<div className='row'>
-				<div className='py-3 text-center justify-items-center '>
+				<div className='pt-3 text-center justify-items-center '>
 					<h6 className='col-md-6 mx-auto'>
 						I'm 41 years old from Venezuela{' '}
 						<img className='flag' src={VEflag} alt='flag' />
@@ -33,38 +33,22 @@ const AboutMe = () => {
 					</h6>
 				</div>
 			</div>
-			<div className='row px-2'>
+			<div className='row p-2'>
 				<div className='col-md-4'>
-					<div className='text-center text-control card card-body text--content cardAbout'>
+					<div className='text-center text--content cardAbout'>
 						<h3>MARINE OFFICER</h3>
 						<Carousel fade className='carouselFix mx-auto'>
 							<Carousel.Item className='justify-items-center'>
-								<img
-									className='d-block carouselFix'
-									src={MO_7}
-									alt='First slide'
-								/>
+								<img className='carouselFix' src={MO_7} alt='First slide' />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img
-									className='d-block carouselFix'
-									src={MO_a}
-									alt='Second slide'
-								/>
+								<img className='carouselFix' src={MO_a} alt='Second slide' />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img
-									className='d-block carouselFix'
-									src={MO_b}
-									alt='Third slide'
-								/>
+								<img className='carouselFix' src={MO_b} alt='Third slide' />
 							</Carousel.Item>
 							<Carousel.Item>
-								<img
-									className='d-block carouselFix'
-									src={MO_c}
-									alt='Third slide'
-								/>
+								<img className='carouselFix' src={MO_c} alt='Third slide' />
 							</Carousel.Item>
 						</Carousel>
 						<div>
@@ -79,7 +63,7 @@ const AboutMe = () => {
 				</div>
 
 				<div className='col-md-4'>
-					<div className='text-center text-control card card-body text--content cardAbout'>
+					<div className='text-center text--content cardAbout'>
 						<h3>CIVIL ENGINEERING</h3>
 						<Carousel fade className='carouselFix mx-auto'>
 							<Carousel.Item className='justify-items-center'>
@@ -123,10 +107,14 @@ const AboutMe = () => {
 					</div>
 				</div>
 				<div className='col-md-4'>
-					<div className='text-center text-control card card-body text--content cardAbout'>
+					<div className='text-center text--content cardAbout'>
 						<h3>CODING</h3>
-						<img className='imgAbout mx-auto mb-2' src={CI01} alt='' />
-						<div className='mx-2'>
+						<Carousel fade className='carouselFix mx-auto'>
+							<Carousel.Item className='justify-items-center'>
+								<img className='carouselFix' src={CI01} alt='First slide' />
+							</Carousel.Item>
+						</Carousel>
+						<div>
 							<p>
 								Over the last 2 years I have been learning about Web
 								Development, most of the time self-taught, watching videos and
