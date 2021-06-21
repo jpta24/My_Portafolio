@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from './Hero';
 import Skills from './Skills';
 import AboutMe from './AboutMe';
+import Projects from './Projects';
 
 const Body = () => {
 	return (
@@ -9,6 +10,7 @@ const Body = () => {
 			<Hero />
 			<AboutMe />
 			<Skills />
+			<Projects />
 		</div>
 	);
 };
