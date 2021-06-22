@@ -18,7 +18,7 @@ import CI01 from './Assets/CI02.png';
 
 const AboutMe = () => {
 	return (
-		<div className='aboutme scrollY row'>
+		<div id='aboutme' className='aboutme scrollY row'>
 			<div className='row'>
 				<div className='pt-3 text-center justify-items-center '>
 					<h6 className='col-md-6 mx-auto'>
