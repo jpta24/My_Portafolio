@@ -1,3 +1,6 @@
+.brand {
+}
+
 .body {
 	/* position: relative;
 	height: 100vh;
@@ -5,7 +8,6 @@
 	 scroll-snap-stop: always; 
 	overflow-y: scroll;*/
 
-	padding-top: 57px;
 	background-color: rgb(150, 75, 75);
 }
 .scrollY {
