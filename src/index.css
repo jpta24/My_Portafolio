@@ -298,3 +298,52 @@
 	-o-transition: all 0.3s linear !important;
 	color: whitesmoke;
 }
+
+.contactType {
+	height: 80px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.imgCo {
+	width: 80px;
+	height: 80px;
+	transition: all 0.2s ease-in-out !important;
+	-webkit-transition: all 0.2s ease-in-out !important;
+	-moz-transition: all 0.2s ease-in-out !important;
+	-ms-transition: all 0.2s ease-in-out !important;
+	-o-transition: all 0.2s ease-in-out !important;
+}
+
+.imgCo:hover {
+	transition: all 0.3s linear !important;
+	-webkit-transition: all 0.3s linear !important;
+	-moz-transition: all 0.3s linear !important;
+	-ms-transition: all 0.3s linear !important;
+	-o-transition: all 0.3s linear !important;
+	color: whitesmoke;
+}
+
+.mailCo {
+	color: red;
+}
+
+.phoneCo {
+	color: green;
+}
+
+.githubCo {
+	color: black;
+}
+
+.linkinCo {
+	color: blue;
+}
+
+.pCo {
+	text-decoration: none;
+	color: white;
+	font-size: larger;
+}

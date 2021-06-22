@@ -3,6 +3,8 @@ import Hero from './Hero';
 import Skills from './Skills';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
+import Contact from './Contact';
+import Footer from './Footer';
 
 const Body = () => {
 	return (
@@ -11,6 +13,8 @@ const Body = () => {
 			<AboutMe />
 			<Skills />
 			<Projects />
+			<Contact />
+			<Footer />
 		</div>
 	);
 };
