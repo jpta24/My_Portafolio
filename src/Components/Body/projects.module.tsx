@@ -24,7 +24,10 @@ import npmI from './Assets/npmicon.png';
 import bootI from './Assets/BootstrapIcon.png';
 
 const gitHubSVG =
-	'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMGMtNi42MjYgMC0xMiA1LjM3My0xMiAxMiAwIDUuMzAyIDMuNDM4IDkuOCA4LjIwNyAxMS4zODcuNTk5LjExMS43OTMtLjI2MS43OTMtLjU3N3YtMi4yMzRjLTMuMzM4LjcyNi00LjAzMy0xLjQxNi00LjAzMy0xLjQxNi0uNTQ2LTEuMzg3LTEuMzMzLTEuNzU2LTEuMzMzLTEuNzU2LTEuMDg5LS43NDUuMDgzLS43MjkuMDgzLS43MjkgMS4yMDUuMDg0IDEuODM5IDEuMjM3IDEuODM5IDEuMjM3IDEuMDcgMS44MzQgMi44MDcgMS4zMDQgMy40OTIuOTk3LjEwNy0uNzc1LjQxOC0xLjMwNS43NjItMS42MDQtMi42NjUtLjMwNS01LjQ2Ny0xLjMzNC01LjQ2Ny01LjkzMSAwLTEuMzExLjQ2OS0yLjM4MSAxLjIzNi0zLjIyMS0uMTI0LS4zMDMtLjUzNS0xLjUyNC4xMTctMy4xNzYgMCAwIDEuMDA4LS4zMjIgMy4zMDEgMS4yMy45NTctLjI2NiAxLjk4My0uMzk5IDMuMDAzLS40MDQgMS4wMi4wMDUgMi4wNDcuMTM4IDMuMDA2LjQwNCAyLjI5MS0xLjU1MiAzLjI5Ny0xLjIzIDMuMjk3LTEuMjMuNjUzIDEuNjUzLjI0MiAyLjg3NC4xMTggMy4xNzYuNzcuODQgMS4yMzUgMS45MTEgMS4yMzUgMy4yMjEgMCA0LjYwOS0yLjgwNyA1LjYyNC01LjQ3OSA1LjkyMS40My4zNzIuODIzIDEuMTAyLjgyMyAyLjIyMnYzLjI5M2MwIC4zMTkuMTkyLjY5NC44MDEuNTc2IDQuNzY1LTEuNTg5IDguMTk5LTYuMDg2IDguMTk5LTExLjM4NiAwLTYuNjI3LTUuMzczLTEyLTEyLTEyeiIvPjwvc3ZnPg==';
+	'https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-github-1.png&r=0&g=0&b=0';
+
+const gitHubSVG2 =
+	'https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-github-1.png&r=150&g=150&b=150';
 
 const projectsData: ProjectInterface[] = [
 	{
@@ -33,7 +36,8 @@ const projectsData: ProjectInterface[] = [
 		img: [FS01, FS02, FS03],
 		technologies: [mongoI, exI, reactI, nodeI, tsI, bootI, npmI],
 		repository: 'https://github.com/jpta24/FullStack-MERN-My-Fav-Videos',
-		description: 'React App, to practice CRUD with database',
+		description:
+			'React App to practice CRUD with database and using all FullStack technologies',
 		icon: gitHubSVG,
 	},
 	{
@@ -42,8 +46,9 @@ const projectsData: ProjectInterface[] = [
 		img: [weatherApp],
 		technologies: [reactI, nodeI, bootI, gitI],
 		repository: 'https://github.com/jpta24/weather-time-app',
-		description: 'React App, to practice external API usage',
-		icon: gitHubSVG,
+		description:
+			'React App to practice external API usage and get weather for 3 cities, also managing date and date converts',
+		icon: gitHubSVG2,
 	},
 
 	{
@@ -53,7 +58,7 @@ const projectsData: ProjectInterface[] = [
 		technologies: [htmlI, cssI, jsI],
 		repository: 'https://github.com/jpta24/Sitelotraigo_ChromeExtension',
 		description:
-			'Chrome Extension, for a Client to get Shipping Price on every Amazon Product Website',
+			'Chrome Extension, for a Client to get Shipping Price to Colombia on every Amazon Product Website',
 		icon: gitHubSVG,
 	},
 ];

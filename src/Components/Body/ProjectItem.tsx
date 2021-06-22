@@ -1,6 +1,8 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
+import { FaGithub } from 'react-icons/fa';
+
 import { ProjectInterface } from './ProjectInterface';
 
 interface Props {
@@ -14,7 +16,7 @@ const ProjectItem = ({ eachProject }: Props) => {
 				<h3 className='titlePr'>{eachProject.name}</h3>
 
 				<div className='text-center'>
-					<Carousel fade className=' w-100 mx-auto'>
+					<Carousel fade className='w-100 mx-auto'>
 						{eachProject.img.map((eachImg: string) => {
 							return (
 								<Carousel.Item className='justify-items-center'>
@@ -35,11 +37,7 @@ const ProjectItem = ({ eachProject }: Props) => {
 				</div>
 				<div className='py-3'>
 					<a className='' href={eachProject.repository} target='blank'>
-						<img
-							src={eachProject.icon}
-							alt='HTML'
-							className='mx-2 imgPr links'
-						/>
+						<FaGithub className='mx-2 imgPr links' />
 					</a>
 				</div>
 			</div>

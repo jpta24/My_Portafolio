@@ -286,12 +286,15 @@
 	height: 50px;
 }
 
+.links {
+	color: black;
+	transition: all 0.3s linear !important;
+}
 .links:hover {
-	box-shadow: 5px 10px 20px 1px rgb(209, 86, 46) !important;
 	transition: all 0.3s linear !important;
 	-webkit-transition: all 0.3s linear !important;
 	-moz-transition: all 0.3s linear !important;
 	-ms-transition: all 0.3s linear !important;
 	-o-transition: all 0.3s linear !important;
-	color: red;
+	color: whitesmoke;
 }
