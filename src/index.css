@@ -1,4 +1,63 @@
-.brand {
+.NavbarM {
+	backdrop-filter: blur(5px);
+	background-color: rgba(13, 41, 58, 0.568);
+}
+
+.NavBo {
+	font-weight: bold;
+	color: whitesmoke !important;
+	border: 1px solid whitesmoke;
+	backdrop-filter: blur(5px);
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.NavBo:hover {
+	color: rgba(245, 245, 245, 0.616) !important;
+	border: 1px solid rgba(245, 245, 245, 0.616);
+}
+
+.NavBrand {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.NavBrand:hover {
+	box-shadow: 2px 5px 5px 1px rgb(34, 34, 34) !important;
+	/* transition: all 0.3s linear !important;
+	-webkit-transition: all 0.3s linear !important;
+	-moz-transition: all 0.3s linear !important;
+	-ms-transition: all 0.3s linear !important;
+	-o-transition: all 0.3s linear !important; */
+	transform: scale(1.03);
+	-webkit-transform: scale(1.03);
+	-moz-transform: scale(1.03);
+	-ms-transform: scale(1.03);
+	-o-transform: scale(1.03);
+}
+
+.activeN {
+	transform: scale(1.05);
+	color: rgba(245, 245, 245, 0.616) !important;
+	border: 2px solid rgba(245, 245, 245, 0.616);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+
+.activeB {
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-o-transform: scale(1.05);
 }
 
 .body {
@@ -8,7 +67,8 @@
 	 scroll-snap-stop: always; 
 	overflow-y: scroll;*/
 
-	background-color: rgb(150, 75, 75);
+	padding-top: 70px;
+	background-color: rgb(13, 41, 58);
 }
 .scrollY {
 	/* width: 100vw; */
