@@ -12,7 +12,7 @@ const Projects = () => {
 		<div id='projects' className='row text-center projects scrollY'>
 			<h2 className='titleSk'>My Projects</h2>
 
-			<div className='row'>
+			<div className='row mx-auto'>
 				{Projects.map((eachProject: ProjectInterface) => {
 					return (
 						<ProjectItem eachProject={eachProject} key={eachProject._id} />
