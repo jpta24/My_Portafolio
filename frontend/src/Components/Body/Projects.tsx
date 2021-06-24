@@ -9,7 +9,7 @@ const Projects = () => {
 	const [Projects] = useState<ProjectInterface[]>(projectsData);
 
 	return (
-		<div id='projects' className='row text-center projects'>
+		<div id='projects' className='row text-center projects scrollY'>
 			<h2 className='titleSk'>My Projects</h2>
 
 			<div className='row'>

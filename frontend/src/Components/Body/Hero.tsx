@@ -1,16 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-import logo from './Assets/coding_icon_color.png';
+import Pdf from './Assets/Icons/Pdf';
+import Download from './Assets/Icons/Download';
+
 import photo from './Assets/photo.png';
 
 const Hero = () => {
 	return (
-		<div id='hero' className='row hero'>
-			<div className='col-md-4 mx-auto'>
-				<div className='text-center'>
-					<img className='logo mx-auto' src={logo} alt='hello' />
-				</div>
-				<div className='text-center'>
+		<div id='hero' className='row hero scrollY'>
+			<div className='col-md-5 mx-auto text-center'>
+				<div className='mt-5'>
 					<img className='photo mx-auto' src={photo} alt='hello' />
 				</div>
 				<div className='text-center text--content '>
@@ -19,6 +19,18 @@ const Hero = () => {
 						Junior FullStack MEAR <br></br>
 						Web Development
 					</h2>
+				</div>
+				<div className='col-md-6 p-3 mt-5 mx-auto DownLoadBo'>
+					<Link
+						to="'./Assets/CV.txt'"
+						target='_blank'
+						className='linkBo col-10'
+						download
+					>
+						<Pdf stroke='whitesmoke' className='col-3' />
+						<span className='col-6 mx-auto'>Download CV</span>
+						<Download stroke='whitesmoke' className='col-3' />
+					</Link>
 				</div>
 			</div>
 		</div>

@@ -18,7 +18,7 @@ import CI01 from './Assets/CI02.png';
 
 const AboutMe = () => {
 	return (
-		<div id='aboutme' className='aboutme scrollY row'>
+		<div id='aboutme' className='row aboutme scrollY'>
 			<div className='row'>
 				<div className='pt-3 text-center justify-items-center '>
 					<h6 className='col-md-6 mx-auto'>
@@ -33,8 +33,8 @@ const AboutMe = () => {
 					</h6>
 				</div>
 			</div>
-			<div className='row p-2'>
-				<div className='col-md-4'>
+			<div className='row p-2 justify-content-around mx-auto'>
+				<div className='col-md-4 px-5'>
 					<div className='text-center text--content cardAbout'>
 						<h3>MARINE OFFICER</h3>
 						<Carousel fade className='carouselFix mx-auto'>
@@ -52,7 +52,7 @@ const AboutMe = () => {
 							</Carousel.Item>
 						</Carousel>
 						<div>
-							<p>
+							<p className='px-3'>
 								For more than 20 years, I have been working as Marine Officer,
 								on differnt roles as Commander, Project Manager and others.
 								Working as team member and leading people is always a challenge
@@ -62,7 +62,7 @@ const AboutMe = () => {
 					</div>
 				</div>
 
-				<div className='col-md-4'>
+				<div className='col-md-4 px-5'>
 					<div className='text-center text--content cardAbout'>
 						<h3>CIVIL ENGINEERING</h3>
 						<Carousel fade className='carouselFix mx-auto'>
@@ -97,7 +97,7 @@ const AboutMe = () => {
 							</Carousel.Item>
 						</Carousel>
 						<div>
-							<p>
+							<p className='px-3'>
 								Since 2013 I got my degree as Civil Enginner and worked at
 								Marine Force on the Enginnering Corps, building infrastructure
 								for the Navy, leading over 50 men, then worked as Project
@@ -106,7 +106,7 @@ const AboutMe = () => {
 						</div>
 					</div>
 				</div>
-				<div className='col-md-4'>
+				<div className='col-md-4 px-5'>
 					<div className='text-center text--content cardAbout'>
 						<h3>CODING</h3>
 						<Carousel fade className='carouselFix mx-auto'>
@@ -115,7 +115,7 @@ const AboutMe = () => {
 							</Carousel.Item>
 						</Carousel>
 						<div>
-							<p>
+							<p className='px-3'>
 								Over the last 2 years I have been learning about Web
 								Development, most of the time self-taught, watching videos and
 								courses on W3school, Coursera, YouTube and some others.

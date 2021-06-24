@@ -5,7 +5,7 @@ import { FaWhatsapp, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
 	return (
-		<div id='contact' className='row text-center skills'>
+		<div id='contact' className='row text-center skills scrollY'>
 			<h2 className='titleSk'>Want to Contact me?</h2>
 			<p className='col-md-8 mx-auto'>
 				Please use the best way you prefer, I'll be pleased to answer you as

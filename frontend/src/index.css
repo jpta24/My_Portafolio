@@ -59,23 +59,18 @@
 	-ms-transform: scale(1.05);
 	-o-transform: scale(1.05);
 }
-
+html {
+	scroll-snap-type: y mandatory;
+	scroll-snap-stop: always;
+	overflow-y: scroll;
+}
 .body {
-	/* position: relative;
-	height: 100vh;
-	width: 100vw; scroll-snap-type: y proximity;
-	 scroll-snap-stop: always; 
-	overflow-y: scroll;*/
-
 	padding-top: 70px;
 	background-color: rgb(13, 41, 58);
 }
 .scrollY {
-	/* width: 100vw; */
-	height: 100vh;
-
 	scroll-snap-align: start;
-	scroll-margin-top: 57px;
+	scroll-margin-top: 70px;
 }
 
 .hero {
@@ -87,7 +82,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	scroll-snap-stop: always;
+	background-attachment: fixed;
 }
 
 .hero-content:hover {
@@ -128,6 +123,54 @@
 	margin-top: 30px;
 }
 
+.DownLoadBo {
+	font-weight: bold;
+	border: 1px solid whitesmoke;
+	backdrop-filter: blur(5px);
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.DownLoadBo:hover {
+	border: 1px solid rgba(245, 245, 245, 0.616);
+}
+
+.DownLoadBo:hover .pdfIcon {
+	stroke: rgba(245, 245, 245, 0.616);
+}
+.DownLoadBo:hover .linkBo {
+	color: rgba(245, 245, 245, 0.616) !important;
+}
+
+.DownLoadBo:hover .DownloadIcon {
+	color: rgba(245, 245, 245, 0.616);
+}
+
+.iconHe {
+	width: 30px;
+	height: 30px;
+	color: whitesmoke !important;
+}
+
+.styled-element {
+	/* stroke: whitesmoke ;*/
+	stroke: green;
+}
+.styled-element:hover {
+	/* stroke: rgba(245, 245, 245, 0.616); */
+	stroke: red;
+}
+
+.linkBo {
+	color: whitesmoke !important;
+}
+
+.linkBo:hover {
+	color: rgba(245, 245, 245, 0.616) !important;
+}
+
 .title {
 	font-family: 'Oswald', sans-serif;
 	font-size: 2.5rem;
@@ -149,10 +192,16 @@
 }
 
 .aboutme {
-	height: 570px;
-	scroll-snap-stop: always;
 	display: flex;
-	flex: none;
+	flex: none; /*
+	width: 100vw;*/
+	height: 570px;
+	background: url(./Components/Body/Assets/coding\ bg2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+
 	background: rgba(13, 41, 58, 1);
 	background: -moz-linear-gradient(
 		top,
@@ -245,7 +294,6 @@
 
 .skills {
 	background-color: gray;
-	scroll-snap-stop: always;
 	height: 570px;
 	display: flex;
 	flex: none;
@@ -288,7 +336,6 @@
 
 .projects {
 	background-color: rgba(13, 41, 58, 1);
-	scroll-snap-stop: always;
 	height: 570px;
 	display: flex;
 	flex: none;
