@@ -21,12 +21,7 @@ const Hero = () => {
 					</h2>
 				</div>
 				<div className='col-md-6 p-3 mt-5 mx-auto DownLoadBo animate__animated animate__pulse'>
-					<Link
-						to="'./Assets/CV.txt'"
-						target='_blank'
-						className='linkBo col-10'
-						download
-					>
+					<Link to='CV.pdf' target='_blank' className='linkBo col-10' download>
 						<Pdf stroke='whitesmoke' className='col-3' />
 						<span className='col-6 mx-auto'>Download CV</span>
 						<Download stroke='whitesmoke' className='col-3' />
