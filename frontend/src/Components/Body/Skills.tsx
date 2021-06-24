@@ -1,24 +1,24 @@
 import React from 'react';
 
-import htmlI from './Assets/html5.png';
-import cssI from './Assets/css.png';
-import jsI from './Assets/JSicon.png';
+import htmlI from './Assets/Img/Skills/html5.png';
+import cssI from './Assets/Img/Skills/css.png';
+import jsI from './Assets/Img/Skills/JSicon.png';
 
-import mongoI from './Assets/mongodbIcon.png';
-import exI from './Assets/ExIcon.png';
-import reactI from './Assets/ReactIcon.png';
-import nodeI from './Assets/NodeIcon.png';
-import tsI from './Assets/TSIcon.png';
+import mongoI from './Assets/Img/Skills/mongodbIcon.png';
+import exI from './Assets/Img/Skills/ExIcon.png';
+import reactI from './Assets/Img/Skills/ReactIcon.png';
+import nodeI from './Assets/Img/Skills/NodeIcon.png';
+import tsI from './Assets/Img/Skills/TSIcon.png';
 
-import gitI from './Assets/GITicon.png';
-import githubI from './Assets/githubicon.png';
-import SassI from './Assets/SassIcon.png';
-import npmI from './Assets/npmicon.png';
-import bootI from './Assets/BootstrapIcon.png';
+import gitI from './Assets/Img/Skills/GITicon.png';
+import githubI from './Assets/Img/Skills/githubicon.png';
+import SassI from './Assets/Img/Skills/SassIcon.png';
+import npmI from './Assets/Img/Skills/npmicon.png';
+import bootI from './Assets/Img/Skills/BootstrapIcon.png';
 
-import scrumI from './Assets/ScrumIcon.png';
-import teamLI from './Assets/TeamLeadIcon.png';
-import managerI from './Assets/ManagerIcon.png';
+import scrumI from './Assets/Img/Skills/ScrumIcon.png';
+import teamLI from './Assets/Img/Skills/TeamLeadIcon.png';
+import managerI from './Assets/Img/Skills/ManagerIcon.png';
 
 const Skills = () => {
 	return (

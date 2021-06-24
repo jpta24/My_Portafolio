@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Container, Nav } from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
 
-import logo from '../Body/Assets/coding_icon_color.png';
+import logo from '../Body/Assets/Img/Some/coding_icon_color.png';
 
 interface NavbarInterface {
 	Home: string;

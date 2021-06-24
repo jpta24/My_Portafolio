@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Pdf from './Assets/Icons/Pdf';
 import Download from './Assets/Icons/Download';
 
-import photo from './Assets/photo.png';
+import photo from './Assets/Img/Some/photo.png';
 
 const Hero = () => {
 	return (
@@ -15,12 +15,12 @@ const Hero = () => {
 				</div>
 				<div className='text-center text--content '>
 					<h1 className='title'>Jean-Pierre Torres</h1>
-					<h2 className='description'>
+					<h2 className='description animate__animated animate__zoomIn'>
 						Junior FullStack MEAR <br></br>
 						Web Development
 					</h2>
 				</div>
-				<div className='col-md-6 p-3 mt-5 mx-auto DownLoadBo'>
+				<div className='col-md-6 p-3 mt-5 mx-auto DownLoadBo animate__animated animate__pulse'>
 					<Link
 						to="'./Assets/CV.txt'"
 						target='_blank'

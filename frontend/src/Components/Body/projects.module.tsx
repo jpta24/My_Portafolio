@@ -1,27 +1,27 @@
 import { ProjectInterface } from './ProjectInterface';
 
-import weatherApp from './Assets/weatherAPP.png';
-import FS01 from './Assets/FullStackMEAR01.png';
-import FS02 from './Assets/FullStackMEAR02.png';
-import FS03 from './Assets/FullStackMEAR03.png';
+import weatherApp from './Assets/Img/Projects/weatherAPP.png';
+import FS01 from './Assets/Img/Projects/FullStackMEAR01.png';
+import FS02 from './Assets/Img/Projects/FullStackMEAR02.png';
+import FS03 from './Assets/Img/Projects/FullStackMEAR03.png';
 
-import STLT01 from './Assets/STLT01.png';
-import STLT02 from './Assets/STLT02.png';
-import STLT03 from './Assets/STLT03.png';
+import STLT01 from './Assets/Img/Projects/STLT01.png';
+import STLT02 from './Assets/Img/Projects/STLT02.png';
+import STLT03 from './Assets/Img/Projects/STLT03.png';
 
-import htmlI from './Assets/html5.png';
-import cssI from './Assets/css.png';
-import jsI from './Assets/JSicon.png';
+import htmlI from './Assets/Img/Skills/html5.png';
+import cssI from './Assets/Img/Skills/css.png';
+import jsI from './Assets/Img/Skills/JSicon.png';
 
-import mongoI from './Assets/mongodbIcon.png';
-import exI from './Assets/ExIcon.png';
-import reactI from './Assets/ReactIcon.png';
-import nodeI from './Assets/NodeIcon.png';
-import tsI from './Assets/TSIcon.png';
+import mongoI from './Assets/Img/Skills/mongodbIcon.png';
+import exI from './Assets/Img/Skills/ExIcon.png';
+import reactI from './Assets/Img/Skills/ReactIcon.png';
+import nodeI from './Assets/Img/Skills/NodeIcon.png';
+import tsI from './Assets/Img/Skills/TSIcon.png';
 
-import gitI from './Assets/GITicon.png';
-import npmI from './Assets/npmicon.png';
-import bootI from './Assets/BootstrapIcon.png';
+import gitI from './Assets/Img/Skills/GITicon.png';
+import npmI from './Assets/Img/Skills/npmicon.png';
+import bootI from './Assets/Img/Skills/BootstrapIcon.png';
 
 const gitHubSVG =
 	'https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-github-1.png&r=0&g=0&b=0';

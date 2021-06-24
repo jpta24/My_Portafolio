@@ -7,6 +7,7 @@ import NavbarModern from './Components/Navbar/NavbarModern';
 
 import 'bootswatch/dist/cyborg/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'animate.css/animate.min.css';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
