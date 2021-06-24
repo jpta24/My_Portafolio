@@ -500,3 +500,20 @@ a:hover {
 		display: block !important;
 	}
 }
+
+.react-tooltip-lite {
+	background: rgba(15, 108, 122, 0.9);
+	color: whitesmoke;
+	font-size: small;
+	padding: 2px;
+	text-align: center;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.react-tooltip-lite-arrow {
+	border-color: rgba(15, 108, 122, 0.9);
+}

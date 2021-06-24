@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Tooltip from 'react-tooltip-lite';
+
 import htmlI from './Assets/Img/Skills/html5.png';
 import cssI from './Assets/Img/Skills/css.png';
 import jsI from './Assets/Img/Skills/JSicon.png';
@@ -55,10 +57,22 @@ const Skills = () => {
 			</div>
 			<div className='card-body mx-auto col-md-4'>
 				<h4>OTHERS</h4>
-				<div className='mx-auto'>
-					<img src={scrumI} alt='HTML' className='mx-2 imgI' />
-					<img src={teamLI} alt='CSS' className='mx-2 imgI' />
-					<img src={managerI} alt='CSS' className='mx-2 imgI' />
+				<div className='row mx-auto'>
+					<div className='col-md-4'>
+						<Tooltip content='Scrum Method' direction='down'>
+							<img src={scrumI} alt='HTML' className='mx-2 imgI' />
+						</Tooltip>
+					</div>
+					<div className='col-md-4'>
+						<Tooltip content='Team Working' direction='down'>
+							<img src={teamLI} alt='CSS' className='mx-2 imgI' />
+						</Tooltip>
+					</div>
+					<div className='col-md-4'>
+						<Tooltip content='Team Leader' direction='down'>
+							<img src={managerI} alt='CSS' className='mx-2 imgI' />
+						</Tooltip>
+					</div>
 				</div>
 			</div>
 		</div>
