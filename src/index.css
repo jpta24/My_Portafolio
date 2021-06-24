@@ -77,8 +77,8 @@ html {
 	display: flex;
 	flex: none; /*
 	width: 100vw;*/
-	height: 570px;
-	background: url(./Components/Body/Assets/coding\ bg2.jpg);
+	min-height: 570px;
+	background: url(./Components/Body/Assets/Img/Some/coding\ bg2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -195,8 +195,9 @@ html {
 	display: flex;
 	flex: none; /*
 	width: 100vw;*/
-	height: 570px;
-	background: url(./Components/Body/Assets/coding\ bg2.jpg);
+
+	min-height: 570px;
+	background: url(./Components/Body/Assets/Img/Some/coding\ bg2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -253,10 +254,10 @@ html {
 }
 
 .cardAbout {
-	height: 100%;
+	/* height: 100%; */
 	padding: 15px;
 	margin: 0px;
-	font: normal bold 18px 'Oswald', sans-serif;
+	font: normal bold 15px 'Oswald', sans-serif;
 	color: #ff8714;
 	transition: all 0.2s ease-in-out !important;
 	-webkit-transition: all 0.2s ease-in-out !important;
@@ -285,6 +286,9 @@ html {
 	box-shadow: inset 0px 0px 20px rgba(255, 232, 198, 0.582);
 	border: 2px solid rgba(255, 232, 198, 0.5);
 }
+.pAb {
+	min-height: 120px;
+}
 
 .carouselFix {
 	width: 200px;
@@ -294,7 +298,8 @@ html {
 
 .skills {
 	background-color: gray;
-	height: 570px;
+
+	min-height: 570px;
 	display: flex;
 	flex: none;
 }
@@ -336,7 +341,8 @@ html {
 
 .projects {
 	background-color: rgba(13, 41, 58, 1);
-	height: 570px;
+
+	min-height: 570px;
 	display: flex;
 	flex: none;
 }
@@ -352,7 +358,6 @@ html {
 	background-color: rgba(15, 108, 122, 0.3);
 	box-shadow: inset 0px 0px 20px rgba(255, 232, 198, 0.582);
 	border: 2px solid rgba(255, 232, 198, 0.5);
-	margin-top: 30px;
 	transition: all 0.2s ease-in-out !important;
 	-webkit-transition: all 0.2s ease-in-out !important;
 	-moz-transition: all 0.2s ease-in-out !important;
@@ -377,7 +382,10 @@ html {
 	color: #d1562e;
 	opacity: 1;
 	margin-top: 20px;
-	height: 65px;
+	min-height: 67px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .imgPr {
@@ -414,6 +422,20 @@ html {
 
 a:hover {
 	text-decoration: none;
+}
+
+.titleCo {
+	font-family: 'Oswald', sans-serif;
+	font-size: 4em;
+	font-weight: bolder;
+	font-style: italic;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color: #ff8714;
+	opacity: 1;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .imgCo {
@@ -455,4 +477,26 @@ a:hover {
 	text-decoration: none;
 	color: white;
 	font-size: larger;
+}
+
+.pCon {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+}
+
+@media screen and (max-width: 800px) {
+	.titleCo {
+		font-size: 3em;
+		margin-left: 0px !important;
+	}
+
+	.pCon {
+		font-size: 1em;
+		margin: 30px !important;
+	}
+
+	.iconsCon {
+		display: block !important;
+	}
 }
