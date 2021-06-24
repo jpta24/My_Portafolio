@@ -22,7 +22,7 @@ import managerI from './Assets/ManagerIcon.png';
 
 const Skills = () => {
 	return (
-		<div id='skills' className='row text-center skills'>
+		<div id='skills' className='row text-center skills scrollY'>
 			<h2 className='titleSk'>My Skills</h2>
 
 			<div className='card-body mx-auto col-md-4'>
