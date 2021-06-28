@@ -193,16 +193,8 @@ html {
 
 .aboutme {
 	display: flex;
-	flex: none; /*
-	width: 100vw;*/
-
+	flex: none;
 	min-height: 570px;
-	background: url(./Components/Body/Assets/Img/Some/coding\ bg2.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-
 	background: rgba(13, 41, 58, 1);
 	background: -moz-linear-gradient(
 		top,
@@ -254,7 +246,6 @@ html {
 }
 
 .cardAbout {
-	/* height: 100%; */
 	padding: 15px;
 	margin: 0px;
 	font: normal bold 15px 'Oswald', sans-serif;
@@ -273,11 +264,6 @@ html {
 	-moz-transition: all 0.3s linear !important;
 	-ms-transition: all 0.3s linear !important;
 	-o-transition: all 0.3s linear !important;
-	/* transform: scale(1.03);
-	-webkit-transform: scale(1.03);
-	-moz-transform: scale(1.03);
-	-ms-transform: scale(1.03);
-	-o-transform: scale(1.03); */
 }
 
 .imgAbout {
@@ -298,7 +284,6 @@ html {
 
 .skills {
 	background-color: gray;
-
 	min-height: 570px;
 	display: flex;
 	flex: none;
@@ -314,7 +299,6 @@ html {
 	opacity: 1;
 	margin-top: 20px;
 }
-/* scrollY skills text-center */
 .imgI {
 	width: 120px;
 	height: 120px;
@@ -341,7 +325,6 @@ html {
 
 .projects {
 	background-color: rgba(13, 41, 58, 1);
-
 	min-height: 570px;
 	display: flex;
 	flex: none;
