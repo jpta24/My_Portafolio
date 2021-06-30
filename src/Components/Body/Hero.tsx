@@ -16,7 +16,7 @@ const Hero = () => {
 				<div className='text-center text--content '>
 					<h1 className='title'>Jean-Pierre Torres</h1>
 					<h2 className='description animate__animated animate__zoomIn'>
-						Junior FullStack MEAR <br></br>
+						Junior Frontend <br></br>
 						Web Development
 					</h2>
 				</div>

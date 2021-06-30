@@ -32,8 +32,8 @@ const AboutMe = () => {
 						I'm 41 years old from Venezuela{' '}
 						<img className='flag' src={VEflag} alt='flag' />
 						, living in Germany <img className='flag' src={GEflag} alt='flag' />
-						, and have always liked to program so I started coding about two
-						years ago and I can't deny it... I love it. <br></br>
+						, and have always wonder to start programming so I started coding
+						about two years ago and I can't deny it... I love it. <br></br>
 						<br></br> I really enjoy making projects come true, but I still
 						learning. Since my background I do like to work in teams and
 						sometimes I have been leading different kind of groups.
