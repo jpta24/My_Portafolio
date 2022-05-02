@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/My_Portafolio/static/css/main.52c2b169.chunk.css",
-    "main.js": "/My_Portafolio/static/js/main.d31b838f.chunk.js",
-    "main.js.map": "/My_Portafolio/static/js/main.d31b838f.chunk.js.map",
-    "runtime-main.js": "/My_Portafolio/static/js/runtime-main.0b55c8bf.js",
-    "runtime-main.js.map": "/My_Portafolio/static/js/runtime-main.0b55c8bf.js.map",
+    "main.js": "/My_Portafolio/static/js/main.e36770c9.chunk.js",
+    "main.js.map": "/My_Portafolio/static/js/main.e36770c9.chunk.js.map",
+    "runtime-main.js": "/My_Portafolio/static/js/runtime-main.c9b55b0a.js",
+    "runtime-main.js.map": "/My_Portafolio/static/js/runtime-main.c9b55b0a.js.map",
     "static/css/2.8116fb32.chunk.css": "/My_Portafolio/static/css/2.8116fb32.chunk.css",
-    "static/js/2.a263cd2d.chunk.js": "/My_Portafolio/static/js/2.a263cd2d.chunk.js",
-    "static/js/2.a263cd2d.chunk.js.map": "/My_Portafolio/static/js/2.a263cd2d.chunk.js.map",
-    "static/js/3.ebd8ab8c.chunk.js": "/My_Portafolio/static/js/3.ebd8ab8c.chunk.js",
-    "static/js/3.ebd8ab8c.chunk.js.map": "/My_Portafolio/static/js/3.ebd8ab8c.chunk.js.map",
+    "static/js/2.b2defa37.chunk.js": "/My_Portafolio/static/js/2.b2defa37.chunk.js",
+    "static/js/2.b2defa37.chunk.js.map": "/My_Portafolio/static/js/2.b2defa37.chunk.js.map",
+    "static/js/3.ec8d4b32.chunk.js": "/My_Portafolio/static/js/3.ec8d4b32.chunk.js",
+    "static/js/3.ec8d4b32.chunk.js.map": "/My_Portafolio/static/js/3.ec8d4b32.chunk.js.map",
     "index.html": "/My_Portafolio/index.html",
     "static/css/2.8116fb32.chunk.css.map": "/My_Portafolio/static/css/2.8116fb32.chunk.css.map",
     "static/css/main.52c2b169.chunk.css.map": "/My_Portafolio/static/css/main.52c2b169.chunk.css.map",
-    "static/js/2.a263cd2d.chunk.js.LICENSE.txt": "/My_Portafolio/static/js/2.a263cd2d.chunk.js.LICENSE.txt",
+    "static/js/2.b2defa37.chunk.js.LICENSE.txt": "/My_Portafolio/static/js/2.b2defa37.chunk.js.LICENSE.txt",
     "static/media/CE2.1adf5335.png": "/My_Portafolio/static/media/CE2.1adf5335.png",
     "static/media/CE4.6ef33c5d.png": "/My_Portafolio/static/media/CE4.6ef33c5d.png",
     "static/media/CE5.1a32d8ea.png": "/My_Portafolio/static/media/CE5.1a32d8ea.png",
@@ -40,10 +40,10 @@
     "static/media/weatherAPP.b683438b.png": "/My_Portafolio/static/media/weatherAPP.b683438b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0b55c8bf.js",
+    "static/js/runtime-main.c9b55b0a.js",
     "static/css/2.8116fb32.chunk.css",
-    "static/js/2.a263cd2d.chunk.js",
+    "static/js/2.b2defa37.chunk.js",
     "static/css/main.52c2b169.chunk.css",
-    "static/js/main.d31b838f.chunk.js"
+    "static/js/main.e36770c9.chunk.js"
   ]
 }
