@@ -72,7 +72,7 @@ const NavbarModern = () => {
 								handleClick('About');
 							}}
 						>
-							About Me
+							About You
 						</Nav.Link>
 						<Nav.Link
 							className={Active.Skills}
