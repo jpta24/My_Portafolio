@@ -17,7 +17,7 @@ ReactDOM.render(
 			<NavbarModern />
 			<div className=''>
 				<Switch>
-					<Route exact path='/My_Portafolio' component={Body} />
+					<Route exact path='/' component={Body} />
 				</Switch>
 			</div>
 		</BrowserRouter>
