@@ -14,7 +14,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
 	<React.StrictMode>
 		<BrowserRouter>
-			<NavbarModern />
+			{/* <NavbarModern /> */}
 			<div className=''>
 				<Switch>
 					<Route exact path='/' component={Body} />
