@@ -13,7 +13,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
 	<React.StrictMode>
-		<BrowserRouter basename='/My_Portafolio'>
+		<BrowserRouter>
 			<NavbarModern />
 			<div className=''>
 				<Switch>
