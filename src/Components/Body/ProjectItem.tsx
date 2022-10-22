@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
 import { FaGithub } from 'react-icons/fa';
+import { GoBrowser } from "react-icons/go";
 
 import { ProjectInterface } from './ProjectInterface';
 
@@ -39,6 +40,10 @@ const ProjectItem = ({ eachProject }: Props) => {
 					<a className='' href={eachProject.repository} target='blank'>
 						<FaGithub className='mx-2 imgPr links' />
 					</a>
+					{eachProject.url && 
+					<a className='' href={eachProject.repository} target='blank'>
+						<GoBrowser className='mx-2 imgPr links' />
+					</a>}
 				</div>
 			</div>
 		</div>

@@ -6,4 +6,5 @@ export interface ProjectInterface {
 	repository: string;
 	description: string;
 	icon: string;
+	url?:string;
 }
