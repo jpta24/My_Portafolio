@@ -500,3 +500,9 @@ a:hover {
 .react-tooltip-lite-arrow {
 	border-color: rgba(15, 108, 122, 0.9);
 }
+
+h6 {
+	line-height: 1;
+	font-size: medium;
+	margin-bottom: 2px;
+}

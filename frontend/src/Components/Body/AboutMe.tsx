@@ -1,6 +1,9 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
+import imgs from "../../data/images.json";
+import text from "../../data/language.json";
+
 import VEflag from './Assets/Img/Some/VE.png';
 import GEflag from './Assets/Img/Some/GE.png';
 
@@ -22,6 +25,7 @@ import CEf from './Assets/Img/CE/CEf.png';
 import CI01 from './Assets/Img/Some/CI02.png';
 import CO02 from './Assets/Img/Some/CO1.gif';
 import CO03 from './Assets/Img/Some/CO2.gif';
+import CO04 from './Assets/Img/Some/ironhacklogo.png';
 
 const AboutMe = () => {
 	return (
@@ -29,11 +33,14 @@ const AboutMe = () => {
 			<div className='row'>
 				<div className='pt-3 text-center justify-items-center animate__animated animate__fadeInUp'>
 					<h6 className='col-md-6 mx-auto'>
-						I'm 41 years old from Venezuela{' '}
+						I'm 42 years old from Venezuela{' '}
 						<img className='flag' src={VEflag} alt='flag' />
 						, living in Germany <img className='flag' src={GEflag} alt='flag' />
-						, and have always wonder to start programming so I started coding
-						about two years ago and I can't deny it... I love it. <br></br>
+						, I’m a former Marines Officer and Civil Engineer
+						aspiring to work as Web Developer, I use
+						logical thinking to find solutions to complex
+						situations and managed cross-functional teams
+						to successfully achieve the goals. <br></br>
 						<br></br> I really enjoy making projects come true, but I still
 						learning. Since my background I do like to work in teams and
 						sometimes I have been leading different kind of groups.
@@ -132,9 +139,9 @@ const AboutMe = () => {
 						</Carousel>
 						<div>
 							<p className='px-3 pAb'>
-								Since 2013 I got my degree as Civil Enginner and worked at
-								Marine Force on the Enginnering Corps, building infrastructure
-								for the Navy, leading over 50 men, then worked as Project
+								In 2013 I got my degree as Civil Enginner and worked at
+								the Marine Force on the Enginnering Corps, building infrastructure
+								for the Navy, leading over 80 men, then worked as Project
 								Manager for an Enginnering Military Brigade.
 							</p>
 						</div>
@@ -142,8 +149,11 @@ const AboutMe = () => {
 				</div>
 				<div className='col-md-4 px-5'>
 					<div className='text-center text--content cardAbout'>
-						<h3>CODING</h3>
+						<h3>WEB DEV</h3>
 						<Carousel fade className='carouselFix mx-auto'>
+							<Carousel.Item className='justify-items-center'>
+								<img className='carouselFix' src={CO04} alt='First slide' />
+							</Carousel.Item>
 							<Carousel.Item className='justify-items-center'>
 								<img className='carouselFix' src={CI01} alt='First slide' />
 							</Carousel.Item>
@@ -157,11 +167,10 @@ const AboutMe = () => {
 						<div>
 							<p className='px-3 pAb'>
 								Over the last 2 years I have been learning about Web
-								Development, most of the time self-taught, watching videos and
-								courses on W3school, Coursera, YouTube and some others.
+								Development, and developing Web Apps and SPA, in 2022 I made the Ironhack Web Development Bootcamp, I have been working with Full-Stack MERN and with Typescript and Bootstrap .
 							</p>
 						</div>
-					</div>
+					</div> 
 				</div>
 			</div>
 		</div>
