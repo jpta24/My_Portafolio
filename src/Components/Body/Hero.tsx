@@ -4,9 +4,7 @@ import { Link } from 'react-router-dom';
 import Pdf from './Assets/Icons/Pdf';
 import Download from './Assets/Icons/Download';
 
-import photo from './Assets/Img/Some/photo.png';
 import imgs from "../../data/images.json";
-import text from "../../data/language.json";
 
 const Hero = () => {
 	return (

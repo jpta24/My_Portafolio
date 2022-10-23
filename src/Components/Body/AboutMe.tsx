@@ -1,8 +1,4 @@
-import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-
-import imgs from "../../data/images.json";
-import text from "../../data/language.json";
 
 import VEflag from './Assets/Img/Some/VE.png';
 import GEflag from './Assets/Img/Some/GE.png';
