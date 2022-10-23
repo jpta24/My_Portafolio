@@ -41,7 +41,6 @@ import tsI from './Assets/Img/Skills/TSIcon.png';
 import gitI from './Assets/Img/Skills/GITicon.png';
 import npmI from './Assets/Img/Skills/npmicon.png';
 import bootI from './Assets/Img/Skills/BootstrapIcon.png';
-import { css } from 'jquery';
 
 const gitHubSVG =
 	'https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-github-1.png&r=0&g=0&b=0';
@@ -49,9 +48,7 @@ const gitHubSVG =
 const gitHubSVG2 =
 	'https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-github-1.png&r=150&g=150&b=150';
 
-const webSVG = 'https://cdns.iconmonstr.com/wp-content/releases/preview/7.0.0/240/iconmonstr-app-lined.png'
 
-const webSVG2 = 'https://cdns.iconmonstr.com/wp-content/releases/preview/7.0.0/240/iconmonstr-app-filled.png'
 
 const handlebarsI = 'https://cdn.iconscout.com/icon/free/png-256/handlebars-3-1175025.png';
 
